@@ -1,0 +1,158 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+/* Variables */
+:root {
+  --green-color: #7acc2d;
+  --white-color: white;
+  --black-color: #313337;
+  /* Espaciado */
+  --space: 10px;
+  /* box-shadow */
+  --box: 0 0 1px #c1bcbc;
+  /* font */
+  --normal: 12px;
+}
+
+/* Variables */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color);
+}
+/* Main_section */
+.main_section {
+  padding: 5%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -200px;
+}
+.product .content {
+  background: var(--white-color);
+  padding: 20px;
+  box-shadow: var)var(var(--box));
+  font-size: var(--normal);
+}
+
+.image_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  background-color: #5ea719;
+}
+
+.descriptions {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  text-align: center;
+  padding: 20px;
+}
+
+.description_content {
+  padding: 10px;
+  font-size: var(--normal);
+}
+
+.description img {
+  width: 150px;
+  height: 150px;
+}
+.description_text {
+  text-align: left;
+}
+
+.mentions {
+  display: flex;
+  padding: 5%;
+}
+
+.mention {
+  padding: var(--space);
+}
+
+.mention img {
+  width: 100%;
+}
+
+.mention_content {
+  box-shadow: 5px 5px 5px rgb(179, 176, 176);
+}
+
+.mention_text {
+  padding: var(--space);
+  font-size: var(--normal);
+}
+
+footer {
+  background: #323337;
+  height: 50px;
+  padding: var(--space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white-color);
+  font-size: var(--normal);
+}

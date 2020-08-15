@@ -1,0 +1,29 @@
+/* 
+ ____    ____      __        _  __        
+|_   \  /   _|    [  |      (_)[  |       
+  |   \/   |  .--. | |.--.  __  | |.---.  
+  | |\  /| |/ .'`\ | '/'`\ [  | | / /__\\ 
+ _| |_\/_| || \__. |  \__/ || | | | \__., 
+|_____||_____'.__.[__;.__.'[___[___'.__.' 
+                                           */
+
+@media (max-width: 600px) {
+  .products {
+    display: inherit;
+    height: auto;
+  }
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section {
+    padding: 4%;
+  }
+  .descriptions,
+  .mentions {
+    display: inherit;
+  }
+  .description_content {
+    align-items: center;
+  }
+}
