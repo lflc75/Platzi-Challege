@@ -26,4 +26,9 @@
   .description_content {
     align-items: center;
   }
+
+  .container {
+    padding: 20px;
+    margin: auto;
+  }
 }
